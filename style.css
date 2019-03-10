@@ -17,12 +17,19 @@ a {
 a:hover {
     color: #D0BFB7;
 }
-.navigation {
+.header {
+    position: sticky;
+    top: 0;
     width: 100%;
+    background: #EEF1F6;
+    border-bottom: 1px solid #D0BFB7;
+}
+.navigation {
     display: flex;
     justify-content: space-between;
     padding: 10px 5%;
     background: transparent;
+
 }
 .name {
     font-size: 32px;
@@ -35,6 +42,9 @@ a:hover {
     display: inline-block;
     margin: 0 10px;
     font-size: 18px;
+}
+.section__hero {
+    border-bottom: 2px solid #D0BFB7;
 }
 .hero__image {
     background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://images.pexels.com/photos/1023953/pexels-photo-1023953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -62,9 +72,13 @@ a:hover {
 .hero__info {
     font-size: 22px;
 }
+.break {
+    border: 1px solid #D0BFB7;
+}
 .section__about-me {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
+    padding: 1%;
 }
 .about-me__container {
     display: flex;
@@ -78,11 +92,36 @@ a:hover {
 }
 .about-me__photo {
     border-radius: 50%;
-    max-width: 30%;
+    max-width: 35%;
+}
+.technologies__container {
+    display: flex;
+    width: 65%;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1%;
+}
+.technologies__card {
+    flex: 1;
+    margin: 0 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.technologies__card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.technologies__description {
+    padding: 5px;
+    text-align: justify;
+}
+
+.technologies__photo {
+    width: 100%;
 }
 
 .footer {
     width: 100%;
     background: #D0BFB7;
-    padding: 40px 10px;
+    padding: 1% 0;
+    text-align: center;
 }
