@@ -127,7 +127,7 @@ a:hover {
     padding: 1% 0;
     text-align: center;
 }
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .about-me__container {
         width: 100%;
     }
@@ -136,7 +136,7 @@ a:hover {
         margin-bottom: 10px;
     }
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .header {
         position: static;
     }
