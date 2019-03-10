@@ -4,20 +4,25 @@
     padding: 0;
 }
 body {
-    background: #fff;
-    color: #000;
+    background: #EEF1F6;
+    color: #49352c;
     width: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
 }
 a {
-    color: #000;
+    color: #49352c;
     text-decoration: none;
+}
+a:hover {
+    color: #D0BFB7;
 }
 .navigation {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px 5%;
-    background: #D0BFB7;
+    background: transparent;
 }
 .name {
     font-size: 32px;
@@ -31,9 +36,6 @@ a {
     margin: 0 10px;
     font-size: 18px;
 }
-.section {
-    border: 1px solid #D0BFB7;
-}
 .hero__image {
     background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://images.pexels.com/photos/1023953/pexels-photo-1023953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     height: 100%;
@@ -46,6 +48,39 @@ a {
     text-align: center;
     padding: 10% 0;
 }
+.hero__name {
+    font-size: 48px;
+}
+.hero__line {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1), #49352c, rgba(255, 255, 255, 0.3));
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0.1), #49352c, rgba(255, 255, 255, 0.3));
+    background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0.1), #49352c, rgba(255, 255, 255, 0.3));
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.1), #49352c, rgba(255, 255, 255, 0.3));
+}
+.hero__info {
+    font-size: 22px;
+}
+.section__about-me {
+    width: 70%;
+    margin: 0 auto;
+}
+.about-me__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-me__description {
+    flex: 1;
+    text-align: center;
+    padding: 2% 3%;
+}
+.about-me__photo {
+    border-radius: 50%;
+    max-width: 30%;
+}
+
 .footer {
     width: 100%;
     background: #D0BFB7;
