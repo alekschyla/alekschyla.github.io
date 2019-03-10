@@ -161,6 +161,7 @@ a:hover {
         flex-direction: column;
     }
     .technologies__card {
+        margin-top: 10px;
         margin-bottom: 15px;
     }
     .hero__name {
@@ -169,8 +170,8 @@ a:hover {
     .hero__info {
         font-size: 18px;
     }
-    .technologies__container {
-        width: 70%;
+    .about-me__photo {
+        max-width: 50%;
     }
 }
 
